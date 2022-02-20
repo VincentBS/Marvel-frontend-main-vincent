@@ -1,7 +1,7 @@
 /* Other rules */
 @font-face {
   font-family: "Roboto Condensed";
-  src: url("./static/Roboto_Condensed/RobotoCondensedRegular.ttf");
+  src: url("./assets/Roboto_Condensed/RobotoCondensedRegular.ttf");
 }
 
 body {
