@@ -1,0 +1,85 @@
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  padding: 0 10px;
+  border-bottom: 1px solid #393939;
+  background-color: rgb(32, 32, 32);
+}
+
+.header-buttons > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  color: white;
+}
+
+.header-buttons > a > button,
+.disconnect-button {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  border: none;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  width: 15%;
+}
+
+.searchBar {
+  flex: 9;
+  background-color: rgb(52, 52, 52);
+  color: white;
+  border: 1px solid #393939;
+  height: 60%;
+}
+
+.search-bar-icon {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 5px;
+}
+
+.header-low {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+
+.header-low > li {
+  padding: 10px 40px;
+}
+
+.low-section-title {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.header-logo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.header-wrapper > * {
+  min-width: 225px;
+}
